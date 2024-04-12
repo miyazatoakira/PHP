@@ -1,20 +1,25 @@
 <?php
-    include "../view/preco_custo.html";
+    include "../view/(4)preco_custo.html";
     
     $nomeProduto = $_POST['txtnome'];
-    $valorProducao = $_POST['txtvalor'];
-    $valorEmbalagem = $_POST['txtembalagem'];
-    $lucro = $_POST['txtlucro'];
+    $valorProducao = (float)$_POST['txtvalor'];
+    $valorEmbalagem = (float)$_POST['txtembalagem'];
+    $lucro = (float)$_POST['txtlucro'];
 
     $taxaEntrega = 12.00;
     $precoCusto = $valorProducao + $valorEmbalagem + $taxaEntrega;
-    $lucro = $precoCusto * ($percentualLucro / 100);
+    $lucro = $precoCusto * ($lucro / 100);
     $precoVenda = $precoCusto + $lucro;
 
-    echo "Nome do produto: $nomeProduto\n";
-    echo "Valor de produção: R$ $valorProducao\n";
-    echo "Valor de gasto com embalagem: R$ $valorEmbalagem\n";
-    echo "Taxa de entrega: R$ $taxaEntrega\n";
-    echo "Total do custo: R$ $precoCusto\n";
-    echo "Lucro por produto: R$ $lucro\n";
-    echo "Valor de venda indicado: R$ $precoVenda\n";
+    echo "
+    <div class='card mt-4 bg-light ' style='width: 18rem'>
+        <div class='card-body'>
+            <p class='card-text text-dark'>
+            Nome do Produto: $nomeProduto
+            Valor Produção: R$ $valorProducao
+            Taxa de Entrega: R$ $taxaEntrega
+            Valor da Embalagem: R$ $valorEmbalagem
+            Preço Lucro: R$ $lucro
+            </p>
+        </div>
+    </div>";

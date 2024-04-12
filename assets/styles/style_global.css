@@ -63,6 +63,12 @@ p {
 .theme-shadow {
   box-shadow: var(--box-shadow);
 }
+.line {
+  width: 60px;
+  height: 4px;
+  background-color: var(--c-brand-light);
+  margin: 16px auto 24px auto;
+}
 
 
 /* SPINNER */
@@ -109,12 +115,6 @@ p {
   margin-bottom: 40px;
 }
 
-.section-title .line {
-  width: 60px;
-  height: 4px;
-  background-color: var(--c-brand-light);
-  margin: 16px auto 24px auto;
-}
 
 .section-title p {
   max-width: 500px;
@@ -145,13 +145,6 @@ p {
   text-justify: inter-word;
 }
 
-.integrantes .line{
-    width: 60px;
-    height: 4px;
-    background-color: var(--c-brand-light);
-    margin: 16px auto 24px auto;
-}
-
 .datafound{
   color:gray;
 }
@@ -180,4 +173,17 @@ p {
 .code-container pre {
   text-align: center; /* Alinha o texto ao centro */
   margin: 0; /* Remove margem padrão do elemento <pre> */
+}
+
+/* EXERCICIOS */
+
+.exercicio #arrow {
+  background-color: var(--c-dark);
+  border-radius: 18px;  
+  color: var(--c-body);
+}
+
+.exercicio #arrow:hover{
+  transition: var(--transition);
+  background-color: var(--c-brand);
 }

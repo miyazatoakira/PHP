@@ -27,4 +27,3 @@ echo "Média das disciplinas: $media2<br><br>";
 echo "Disciplina: $disciplina3<br>";
 echo "Notas: $n7, $n8, $n9<br><br>";
 echo "Média das disciplinas: $media3<br><br>";
-?>
