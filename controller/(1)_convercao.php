@@ -9,4 +9,3 @@ echo "Nome do usuário: $nome<br>";
 echo "Valor em real: $real<br>";
 echo "Dollar hoje: $dollar<br>";
 echo "Valor em dollar: $valor_dollar";
-?>
