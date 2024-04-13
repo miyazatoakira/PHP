@@ -135,7 +135,7 @@ p {
 }
 
 .home .card:hover {
-  transform: scale(1.02);
+  transform: scale(1.2);
   transition: var(--transition);
 }
 
