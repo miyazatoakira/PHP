@@ -139,6 +139,11 @@ p {
   transition: var(--transition);
 }
 
+.php .card:hover .bi{
+  color: var(--c-brand-light);
+  transition: var(--transition);
+}
+
 /* PESQUISA */
 .php .txt{
   text-align: justify;
@@ -189,27 +194,6 @@ p {
 }
 
 /* Quem somos */
-
-
-
-:root {
-    --background: #2C2C2C;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;  
-}
-
-body {
-    background-color: var(--background);
-    display: grid;
-    height: 100vh;
-    margin: 0;
-    font-size: 16px;
-    font-family: gotham;
-}
 
 .container {
     display: flex;
@@ -285,4 +269,3 @@ body {
 .profile:hover .profile-name {
     background-color: #fff;
 }
-
