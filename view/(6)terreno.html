@@ -59,48 +59,35 @@
                 <i class="bi bi-arrow-left m-3"> </i>
             </a>
             <div class="row justify-content-center align-items-center text-center">
-                <div class="col-6">
+                <div class="col-8 mb-3">
                     <h1 class="h1 mb-4">Exercício 04 - PHP</h1>
                     <div class="line"></div>
                     <p class="text-dark" style="text-align: justify;">O sistema receberá o nome do Produto, valor de
-                        Produção, valor de
-                        gasto
-                        com embalagem e
-                        percentual de lucro pretendido. Para entrega deverá gerar uma taxa de R$12,00<br>
-                        - Deve proecssar as despesas com o produto.<br>
-                        - A partir do valor de custo, calcular Lucro.<br>
-                        - Mostrar na tela Nome Produto, valores com produção, embalagem e entrega. Total do Custo, Lucro
-                        por produto e valor de venda indicado, a venda deve compreender o lucro com o custo</p>
+                        Um servente, deverá roçarum determinado terreno, para montar o orçamento deve saber a quantidade
+                        emmetros do terreno, sendo este um retânguloe tendo como comprimento de um dos lados a medida de
+                        45 metros e de largura de um dos lados a medida de 20 metros. Calcule o total em metros do
+                        terreno, e o valortotal para roçar, sabendo que por metro o servente cobra R$ 12,00
+                    </p>
                 </div>
-                <div class="col-8">
-                    <form action="../controller/preco_custo.php" method="POST">
+                <div class="col-6">
+                    <form action="../controller/terreno.php" method="POST">
                         <div class="form-floating mb-3">
-                            <input type="text" name="txtnome" class="form-control" id="floatingInput"
-                                placeholder="txtnome">
-                            <label for="floatingInput">Nome Produto</label>
+                            <input type="text" name="comprimento" class="form-control" id="floatingInput"
+                                placeholder="comprimento">
+                            <label for="floatingInput">Comprimento do terreno</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="text" name="txtvalor" class="form-control" id="floatingValor"
-                                placeholder="txtvalor">
-                            <label for="floatingValor">Valor Fábrica</label>
+                            <input type="text" name="largura" class="form-control" id="floatingInput"
+                                placeholder="largura">
+                            <label for="floatingInput">Largura do terreno</label>
                         </div>
-                        <div class="form-floating mb-3">
-                            <input type="text" name="txtembalagem" class="form-control" id="floatingEmbalagem"
-                                placeholder="txtembalagem">
-                            <label for="floatingEmbalagem">Embalagem</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="text" name="txtlucro" class="form-control" id="floatingLucro"
-                                placeholder="txtlucro">
-                            <label for="floatingLucro">Lucro</label>
-                        </div>
-
-                        <input type="submit" class="btn btn-outline-dark">
+                        <input type="submit" class="btn btn-outline-dark ">
                     </form>
                 </div>
             </div>
         </div>
     </section>
+
 
 
 

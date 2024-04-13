@@ -29,5 +29,6 @@ echo
     Pessoa 3: $nome3, e sua fruta favorita é $fruta3
     </p>
 </div>
-</div>";
+</div>
+<p class='align-self-end align-self-center mt-5'>Feito por Augusto Akira Miasato</p>";
 

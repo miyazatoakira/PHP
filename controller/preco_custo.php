@@ -22,4 +22,5 @@
             Preço Lucro: R$ $lucro
             </p>
         </div>
-    </div>";
+    </div>
+    <p class='align-self-end align-self-center mt-5'>Feito por Augusto Akira Miasato</p>";
