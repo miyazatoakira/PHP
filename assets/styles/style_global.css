@@ -187,3 +187,102 @@ p {
   transition: var(--transition);
   background-color: var(--c-brand);
 }
+
+/* Quem somos */
+
+
+
+:root {
+    --background: #2C2C2C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    background-color: var(--background);
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: gotham;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+} 
+  
+.profile-wrapper {
+    width: 22rem;
+    height: 28rem;
+    margin-left: 1rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 20rem;
+    height: 26rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: 0.5s;
+}
+ 
+.profile .profile-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: var(--background);
+    transition: .5s;
+}
+
+.profile-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile:hover img {
+    opacity: 0.4;
+    transition: .5s;
+}
+
+.profile:hover .profile-image {
+    transform: translateY(-114px);
+    transition: all .9s;
+}
+
+.profile:hover .profile-bio {
+    opacity: 0.9; 
+}
+
+.profile-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+    height: 7rem;
+    padding: 0.75rem 0.875rem;
+    z-index: 1;
+    color: #333;
+    background-color: #fff;
+    text-align: left;
+}
+
+.profile:hover .profile-name {
+    background-color: #fff;
+}
+
