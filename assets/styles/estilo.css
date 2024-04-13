@@ -149,9 +149,8 @@ p {
   .integrantes-conteiner {
     height: auto;
     width: 400px;
-    border: solid 2px black;
     margin-left: 5%;
-    background-color: rgb(230, 230, 230);
+
   }
 
   .integrantes-img {
@@ -191,7 +190,7 @@ p {
 
   .lista {
     font-family: "gotham";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     margin-top: 50px;
     margin-left: 10px;
