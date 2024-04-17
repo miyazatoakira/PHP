@@ -8,8 +8,8 @@ dos lados a medida de 45 metros e de largura de um dos lados a medida de 20 metr
 Calcule o total em metros do terreno, e o valor total para roçar, sabendo que por metro o 
 servente cobra R$ 12,00 */
 
-$largura = (float)$_POST['largura'];
-$comprimento = (float)$_POST['comprimento'];
+$largura = 20;
+$comprimento = 45;
 
 $area  = $largura*$comprimento;
 $custo = $area * 12.00;

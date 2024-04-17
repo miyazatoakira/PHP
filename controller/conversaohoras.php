@@ -30,6 +30,6 @@ include "../view/(10)conversaohoras.html";
     $min minutos deram $seg2 segundos <br>
     Logo a hora $horas h$min m$seg s deram ao todo $totalseg segundos <br>
     </p>
-</div>
+</div><p class='align-self-end align-self-center mt-5'>Feito por João Faro</p>
 ";
     }

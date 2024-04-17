@@ -36,6 +36,6 @@
         Valor pago a cada um dos funcionários: R$$valor_por_funcionario <br>
         </p>
     </div>
-    </div>";
+    </div><p class='align-self-end align-self-center mt-5'>Feito por João Faro</p>";
         }
     
