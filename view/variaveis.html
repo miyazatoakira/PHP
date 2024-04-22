@@ -36,6 +36,16 @@
       right: 44%;
       top: -2%;
     }
+
+    .container .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    button,
+    span {
+      z-index: 1000;
+    }
   </style>
 </head>
 
@@ -145,207 +155,189 @@
       <a name="exercicios"></a>
       <div class="section-title">
 
-        <h1 class="display-5 fw-semibold">Exercícios sobre Variáveis</h1>
+        <h1 class="display-5 fw-semibold text-center">Exercícios sobre Variáveis</h1>
+        <div id="carouselExample" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
+          <div class="carousel-inner ">
 
+            <div class="carousel-item active" data-bs-interval="5000">
+              <div class="row justify-content-center ">
+                <div class="card-group w-100 col-12">
+                  <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
+                    data-aos-delay="50">
+                    <i class="bi bi-graph-down" style="font-size: 160px;">
+                    </i>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Exercício 01 - Calculo Média</h5>
+                      <p class="card-text">
+                        Essa seção contém exercícios de lógica de programação, em
+                        PHP.
+                      </p>
+                      <a href="./(1)_media.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                    </div>
+                  </div>
 
-        <div class="row justify-content-center g-3">
+                  <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
+                    data-aos-delay="100">
+                    <div class="icon">
+                      <i class="bi bi-arrow-left-right">
+                      </i>
+                      <i class="bi bi-currency-dollar">
+                      </i>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Exercício 02 - Conversao </h5>
+                      <p class="card-text">
+                        Essa seção contém exercícios de lógica de programação, em
+                        PHP.
+                      </p>
+                      <a href="./(2)_conversao.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                    </div>
+                  </div>
 
-          <div class="col-4">
-
-            <p class="txt text-dark mt-5">
-            <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
-              data-aos-delay="50">
-              <i class="bi bi-graph-down" style="font-size: 160px;">
-              </i>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Exercício 01 - Calculo Média</h5>
-                <p class="card-text">
-                  Essa seção contém exercícios de lógica de programação, em
-                  PHP.
-                </p>
-                <a href="./(1)_media.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                  <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
+                    data-aos-delay="200">
+                    <i class="bi bi-piggy-bank-fill"></i>
+                    <i class="bi bi-coin"></i>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Exercício 03 - Salário</h5>
+                      <p class="card-text">
+                        Essa seção contém exercícios de lógica de programação, em
+                        PHP.
+                      </p>
+                      <a href="./(3)_salario.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            </p>
-          </div>
 
-          <div class="col-4">
-            <p class="txt text-dark mt-5">
-            <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
-              data-aos-delay="100">
-              <div class="icon">
-                <i class="bi bi-arrow-left-right">
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="row justify-content-center ">
+                <div class="card-group w-100 col-12">
+                  <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
+                    data-aos-delay="300">
+                    <i class="bi bi-currency-exchange" style="font-size: 160px;"></i>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Exercício 04 - Preço Custo</h5>
+                      <p class="card-text">
+                        Algoritmo que recebe o nome do produto, preço de fabrica, percentual de lucro e taxa de entrega.
+                        Por
+                        fim retorna os valores, além do valor final.
+                      </p>
+                      <a href="./(4)preco_custo.html"
+                        class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                    </div>
+                  </div>
 
-                </i>
-                <i class="bi bi-currency-dollar">
 
-                </i>
-              </div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Exercício 02 - Conversao </h5>
-                <p class="card-text">
-                  Essa seção contém exercícios de lógica de programação, em
-                  PHP.
-                </p>
-                <a href="./(2)_conversao.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
-              </div>
-            </div>
-            </p>
-          </div>
 
-          <div class="col-4">
+                  <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
+                    data-aos-delay="400">
+                    <i class="bi bi-arrow-repeat" style="font-size: 160px;"></i>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Exercício 05 - Troca Valores</h5>
+                      <p class="card-text">
+                        O sistema recebe o nome de 3 pessoas, e suas respectivas frutas favoritas, por fim retorna os 3
+                        nomes
+                        com suas frutas favoritas trocadas.
+                      </p>
+                      <a href="./(5)troca_fruta.html"
+                        class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                    </div>
+                  </div>
 
-            <p class="txt text-dark mt-5">
-            <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
-              data-aos-delay="200">
-              <i class="bi bi-piggy-bank-fill"></i>
-              <i class="bi bi-coin"></i>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Exercício 03 - Salário</h5>
-                <p class="card-text">
-                  Essa seção contém exercícios de lógica de programação, em
-                  PHP.
-                </p>
-                <a href="./(3)_salario.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
-              </div>
-            </div>
-            </p>
-          </div>
 
-          <div class="col-4">
 
-            <p class="txt text-dark mt-5">
-            <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
-              data-aos-delay="300">
-              <i class="bi bi-currency-exchange" style="font-size: 160px;"></i>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Exercício 04 - Preço Custo</h5>
-                <p class="card-text">
-                  Algoritmo que recebe o nome do produto, preço de fabrica, percentual de lucro e taxa de entrega. Por
-                  fim retorna os valores, além do valor final.
-                </p>
-                <a href="./(4)preco_custo.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                  <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
+                    data-aos-delay="500">
+                    <i class="bi bi-calculator" style="font-size: 160px;"></i>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Exercício 06 - Calculo Terreno</h5>
+                      <p class="card-text">
+                        O sistema receberá a largura e comprimento de um terreno, com o objetivo de calcular o valor
+                        para um
+                        Servente carpinar o mesmo, por fim o retornará o valor final.
+                      </p>
+                      <a href="./(6)terreno.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            </p>
-          </div>
 
-          <div class="col-4">
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="row justify-content-center ">
+                <div class="card-group w-100 col-12">
+                  <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
+                    data-aos-delay="600">
+                    <i class="bi bi-cash-coin" style="font-size: 160px;"></i>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Exercício 07 - Comissão</h5>
+                      <p class="card-text">
+                        Um programa que recebe o
+                        nome de três vendedores e recebe o total de vendas do
+                        mês de cada um. Acrescenta uma comissão de 12% para cada um e mostra no final.
 
-            <p class="txt text-dark mt-5">
-            <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
-              data-aos-delay="400">
-              <i class="bi bi-arrow-repeat" style="font-size: 160px;"></i>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Exercício 05 - Troca Valores</h5>
-                <p class="card-text">
-                  O sistema recebe o nome de 3 pessoas, e suas respectivas frutas favoritas, por fim retorna os 3 nomes
-                  com suas frutas favoritas trocadas.
-                </p>
-                <a href="./(5)troca_fruta.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                      </p>
+                      <a href="./(7)comissao.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                    </div>
+                  </div>
+                  <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
+                    data-aos-delay="700">
+                    <i class="bi bi-currency-bitcoin" style="font-size: 160px;"></i>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Exercício 08 - Bônus</h5>
+                      <p class="card-text">
+                        Programa que recebe o valor total
+                        de venda para o primeiro trimestre do ano (janeiro/ fevereiro e março),
+                        recebe também o total de vendedores com direito ao bônus e calcula.
+
+                      </p>
+                      <a href="./(8)bonus.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                    </div>
+                  </div>
+                  <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
+                    data-aos-delay="800">
+                    <i class="bi bi-question" style="font-size: 160px;"></i>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Exercício 09 - Calculo ?</h5>
+                      <p class="card-text">
+                        Programa Calculadora.
+                      </p>
+                      <a href="./(9)_calculadora.html"
+                        class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                    </div>
+                  </div>
+                  <div class="card h-100 theme-shadow mx-auto" data-aos="fade-down-right" data-aos-duration="1000"
+                      data-aos-delay="900">
+                      <i class="bi bi-stopwatch" style="font-size: 160px;"></i>
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Exercício 10 - Conversão Horas</h5>
+                        <p class="card-text">
+                          Programa que recebe o valor total
+                          de horas/minutos/segundos e converte tudo para segundos.
+
+                        </p>
+                        <a href="./(10)conversaohoras.html"
+                          class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
+                      </div>
+                    </div>
+                </div>
               </div>
             </div>
-            </p>
+
+
+
           </div>
 
-          <div class="col-4">
-
-            <p class="txt text-dark mt-5">
-            <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
-              data-aos-delay="500">
-              <i class="bi bi-calculator" style="font-size: 160px;"></i>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Exercício 06 - Calculo Terreno</h5>
-                <p class="card-text">
-                  O sistema receberá a largura e comprimento de um terreno, com o objetivo de calcular o valor para um
-                  Servente carpinar o mesmo, por fim o retornará o valor final.
-                </p>
-                <a href="./(6)terreno.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
-              </div>
-            </div>
-            </p>
-          </div>
-
-          <div class="col-4">
-
-            <p class="txt text-dark mt-5">
-            <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
-              data-aos-delay="600">
-              <i class="bi bi-cash-coin" style="font-size: 160px;"></i>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Exercício 07 - Comissão</h5>
-                <p class="card-text">
-                  Um programa que recebe o
-                  nome de três vendedores e recebe o total de vendas do
-                  mês de cada um. Acrescenta uma comissão de 12% para cada um e mostra no final.
-
-                </p>
-                <a href="./(7)comissao.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
-              </div>
-            </div>
-            </p>
-          </div>
-
-          <div class="col-4">
-
-            <p class="txt text-dark mt-5">
-            <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
-              data-aos-delay="700">
-              <i class="bi bi-currency-bitcoin" style="font-size: 160px;"></i>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Exercício 08 - Bônus</h5>
-                <p class="card-text">
-                  Programa que recebe o valor total
-                  de venda para o primeiro trimestre do ano (janeiro/ fevereiro e março),
-                  recebe também o total de vendedores com direito ao bônus e calcula.
-
-                </p>
-                <a href="./(8)bonus.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
-              </div>
-            </div>
-            </p>
-          </div>
-
-          <div class="col-4">
-
-            <p class="txt text-dark mt-5">
-            <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
-              data-aos-delay="800">
-              <i class="bi bi-question" style="font-size: 160px;"></i>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Exercício 09 - Calculo ?</h5>
-                <p class="card-text">
-                  O programa receberá 03 números que podem ser inteiros ou fracionados, e ira processar
-                  a soma dos números digitados, a subtração desses números pelo resultado da soma, a multiplicação
-                  dos números digitados pelo resultado da subtração e divisão da multiplicação pela quantidade de
-                  números digitados.
-
-                </p>
-                <a href="./(9)_calculadora.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
-              </div>
-            </div>
-            </p>
-          </div>
-
-          <div class="col-4">
-
-            <p class="txt text-dark mt-5">
-            <div class="card h-100 theme-shadow" data-aos="fade-down-right" data-aos-duration="1000"
-              data-aos-delay="900">
-              <i class="bi bi-stopwatch" style="font-size: 160px;"></i>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Exercício 10 - Conversão Horas</h5>
-                <p class="card-text">
-                  Programa que recebe o valor total
-                  de horas/minutos/segundos e converte tudo para segundos.
-
-                </p>
-                <a href="./(10)conversaohoras.html" class="btn btn-outline-primary mt-auto stretched-link">EXECUTAR</a>
-              </div>
-            </div>
-            </p>
-          </div>
-
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
         <BR><BR><BR><BR><BR>
         <p class="text-center">Created by: João Victor Faro</p>

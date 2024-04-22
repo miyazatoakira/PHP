@@ -192,6 +192,9 @@ p {
   background-color: var(--c-brand);
 }
 
+.exercicio p{
+  text-align: justify;
+}
 /* Quem somos */
 
 .container {
@@ -272,14 +275,14 @@ p {
 
 
 /* EXEMPLOS DE CÓDIGO */
-.code {
+.code, .codigo {
   background-color: #2d2d2d;
   color: #ffffff;
   border-radius: 5px;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.code-title {
+.code-title, .codigo-tag{
   background-color: #494949;
   width: 100%;
   font-size: 12px;
