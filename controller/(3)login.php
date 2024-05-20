@@ -20,5 +20,5 @@ echo
             $resultado
         </p>
     </div>
-</div><p class='align-self-center mt-5'>Feito por </p>
+</div><p class='align-self-center mt-5'>Feito por Augusto Akira Miasato</p>
     }";
