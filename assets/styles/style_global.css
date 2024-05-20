@@ -192,9 +192,6 @@ p {
   background-color: var(--c-brand);
 }
 
-.exercicio p{
-  text-align: justify;
-}
 /* Quem somos */
 
 .container {
@@ -273,16 +270,15 @@ p {
 }
 
 
-
 /* EXEMPLOS DE CÓDIGO */
-.code, .codigo {
+.code {
   background-color: #2d2d2d;
   color: #ffffff;
   border-radius: 5px;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.code-title, .codigo-tag{
+.code-title {
   background-color: #494949;
   width: 100%;
   font-size: 12px;
@@ -303,3 +299,69 @@ p {
   padding-top: 140px;
   padding-bottom: 140px;
 }
+
+
+/*Alterações*/
+
+.divider {
+  width: 100%;
+  height: 3rem;
+  }
+
+.bd-mode-toggle {
+  z-index: 1500;
+  }
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+  }
+
+/*Estilização dos icones*/
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 150px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
