@@ -55,46 +55,27 @@
 
     <section class="exercicio mt-5">
         <div class="container">
-            <a href="../view/variaveis.html" id="arrow" class="align-self-start fs-2 mt-5 ms-5">
+            <a href="/view/decisao.html" id="arrow" class="align-self-start fs-2 mt-5 ms-5">
                 <i class="bi bi-arrow-left m-3"> </i>
             </a>
             <div class="row justify-content-center align-items-center text-center">
                 <div class="col-6">
-                    <h1 class="h1 mb-4">Exercício 04 - PHP</h1>
+                    <h1 class="h1 mb-4">Exercício 05 - Polígono</h1>
                     <div class="line"></div>
-                    <p class="text-dark" style="text-align: justify;">O sistema receberá o nome do Produto, valor de
-                        Produção, valor de
-                        gasto
-                        com embalagem e
-                        percentual de lucro pretendido. Para entrega deverá gerar uma taxa de R$12,00<br>
-                        - Deve proecssar as despesas com o produto.<br>
-                        - A partir do valor de custo, calcular Lucro.<br>
-                        - Mostrar na tela Nome Produto, valores com produção, embalagem e entrega. Total do Custo, Lucro
-                        por produto e valor de venda indicado, a venda deve compreender o lucro com o custo</p>
+                    <p class="text-dark" style="text-align: justify;"> Digite a quantidade de lados e o valor de cada e te direi qual tipo de polígono regular é.</p>
                 </div>
                 <div class="col-8">
-                    <form action="../controller/preco_custo.php" method="POST">
+                    <form action="../controller/poligonoregular.php" method="POST">
                         <div class="form-floating mb-3">
-                            <input type="text" name="txtnome" class="form-control" id="floatingInput"
-                                placeholder="txtnome">
-                            <label for="floatingInput">Nome Produto</label>
+                            <input type="text" name="txtquantidade" class="form-control" id="floatingInput"
+                                placeholder="txtquantidade">
+                            <label for="floatingInput">Quantidade de lados</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="text" name="txtvalor" class="form-control" id="floatingValor"
-                                placeholder="txtvalor">
-                            <label for="floatingValor">Valor Fábrica</label>
+                            <input type="text" name="txtlado" class="form-control" id="floatingInput"
+                                placeholder="txtlado">
+                            <label for="floatingInput">Valor do lado</label>
                         </div>
-                        <div class="form-floating mb-3">
-                            <input type="text" name="txtembalagem" class="form-control" id="floatingEmbalagem"
-                                placeholder="txtembalagem">
-                            <label for="floatingEmbalagem">Embalagem</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="text" name="txtlucro" class="form-control" id="floatingLucro"
-                                placeholder="txtlucro">
-                            <label for="floatingLucro">Lucro</label>
-                        </div>
-
                         <input type="submit" class="btn btn-outline-dark">
                     </form>
                 </div>

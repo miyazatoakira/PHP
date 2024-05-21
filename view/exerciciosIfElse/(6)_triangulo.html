@@ -55,23 +55,31 @@
 
     <section class="exercicio mt-5">
         <div class="container">
-            <a href="../view/decisao.html" id="arrow" class="align-self-start fs-2 mt-5 ms-5">
+            <a href="/view/decisao.html" id="arrow" class="align-self-start fs-2 mt-5 ms-5">
                 <i class="bi bi-arrow-left m-3"> </i>
             </a>
             <div class="row justify-content-center align-items-center text-center">
                 <div class="col-6">
-                    <h1 class="h1 mb-4">Exercício 04 - Maças</h1>
+                    <h1 class="h1 mb-4">Exercício 06 - Triângulo</h1>
                     <div class="line"></div>
-                    <p class="text-dark" style="text-align: justify;"> As maçãs custam R$ 0,30 cada se forem compradas
-                        menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze. Escreva um programa que
-                        leia o número de maçãs compradas, calcule e escreva o valor total da compra.</p>
+                    <p class="text-dark" style="text-align: justify;"> Digite o valor de cada lado e saiba a categoria do triângulo.</p>
                 </div>
                 <div class="col-8">
-                    <form action="../controller/maca.php" method="POST">
+                    <form action="../controller/triangulo.php" method="POST">
                         <div class="form-floating mb-3">
-                            <input type="text" name="txtquantidade" class="form-control" id="floatingInput"
-                                placeholder="txtquantidade">
-                            <label for="floatingInput">Quantidade de maças</label>
+                            <input type="text" name="txtlado1" class="form-control" id="floatingInput"
+                                placeholder="txtlado1">
+                            <label for="floatingInput">Digite o lado 1 do triângulo</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" name="txtlado2" class="form-control" id="floatingInput"
+                                placeholder="txtlado2">
+                            <label for="floatingInput">Digite o lado 2 do triângulo</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" name="txtlado3" class="form-control" id="floatingInput"
+                                placeholder="txtlado3">
+                            <label for="floatingInput">Digite o lado 3 do triângulo</label>
                         </div>
                         <input type="submit" class="btn btn-outline-dark">
                     </form>

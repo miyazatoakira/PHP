@@ -55,58 +55,31 @@
 
     <section class="exercicio mt-5">
         <div class="container">
-            <a href="../view/decisao.html" id="arrow" class="align-self-start fs-2 mt-5 ms-5">
+            <a href="/view/decisao.html" id="arrow" class="align-self-start fs-2 mt-5 ms-5">
                 <i class="bi bi-arrow-left m-3"> </i>
             </a>
             <div class="row justify-content-center align-items-center text-center">
                 <div class="col-6">
-                    <h1 class="h1 mb-4">Exercício 01 - PHP</h1>
+                    <h1 class="h1 mb-4">Exercício 04 - Maças</h1>
                     <div class="line"></div>
-                    <p class="text-dark" style="text-align: justify;">
-                        O sistema receberá 4 números e fará a verificação do Maior e Menor valor inserido.
-                    </p>
+                    <p class="text-dark" style="text-align: justify;"> As maçãs custam R$ 0,30 cada se forem compradas
+                        menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze. Escreva um programa que
+                        leia o número de maçãs compradas, calcule e escreva o valor total da compra.</p>
                 </div>
                 <div class="col-8">
-                    <form action="../controller/(1)maiormenor.php" method="POST">
-                        <div class="row gy-3">
-                            <div class="col-6">
-                                <div class="form-floating">
-                                    <input type="text" name="n1" class="form-control" id="floatingInput"
-                                        placeholder="Número 1">
-                                    <label for="floatingInput">Número 1</label>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-floating ">
-                                    <input type="text" name="n2" class="form-control" id="floatingInput"
-                                        placeholder="Número 2">
-                                    <label for="floatingInput">Número 2</label>
-                                </div>
-                            </div>
-
-                            <div class="col-6">
-                                <div class="form-floating">
-                                    <input type="text" name="n3" class="form-control" id="floatingInput"
-                                        placeholder="Número 3">
-                                    <label for="floatingInput">Número 3</label>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-floating ">
-                                    <input type="text" name="n4" class="form-control" id="floatingInput"
-                                        placeholder="Número 4">
-                                    <label for="floatingInput">Número 4</label>
-                                </div>
-                            </div>
-
+                    <form action="../controller/maca.php" method="POST">
+                        <div class="form-floating mb-3">
+                            <input type="text" name="txtquantidade" class="form-control" id="floatingInput"
+                                placeholder="txtquantidade">
+                            <label for="floatingInput">Quantidade de maças</label>
                         </div>
-
-                        <input type="submit" class="btn btn-outline-dark mt-4">
+                        <input type="submit" class="btn btn-outline-dark">
                     </form>
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
