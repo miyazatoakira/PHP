@@ -1,5 +1,5 @@
 <?php
-include "../view/(1)tabuada.php";
+include "../view/(1)tabuada.html";
 $augusto = intval($_POST['num1']);
 
 for ($i = 1; $i <= 20; $i++) {
