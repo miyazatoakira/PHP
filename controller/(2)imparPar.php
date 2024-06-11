@@ -1,5 +1,5 @@
 <?php
-include "../view/exerciciosLoops/(2)parImpar.php";
+include "../view/exerciciosLoops/(2)parImpar.html";
 $valores = [];
 for($i = 1; $i<=10; $i++){
     $valores[] = $_POST['num' . $i];
@@ -11,16 +11,16 @@ foreach($valores as $val){
     if ($val % 2 == 0){
         $valPar[] = $val;
     }
-    else{
+    if ($val % 2 != 0){
         $valImpar[] = $val;
     }
 }
 
 echo
-        "<div class='card mt-4 bg-light text-center' style='width: 20rem'>
+        "<div class='card mt-4 bg-light text-center align-self-center' style='width: 18rem'>
             <div class='card-body'>
                 <p class='card-text text-dark'>
-                Valores Pares: ". implode(" ,", $valPar);"<br>
+                Valores Pares: ". implode(" ,", $valPar);" / 
                 Valores Impar: " . implode(" ,", $valImpar);"
                 </p>
             </div>
