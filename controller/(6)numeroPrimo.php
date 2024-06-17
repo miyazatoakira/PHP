@@ -16,7 +16,7 @@ do{
     }
     $i--;
 }
-while($i!=0);
+while($i!=2);
 
 echo
 "<div class='card mt-4 bg-light text-center position-absolute start-50 translate-middle ' style='width: 18rem'>
